@@ -1,5 +1,4 @@
 require('dotenv').config()
-console.log(process.env)
 require('./models/User')
 require('./models/Track')
 const express = require('express')
